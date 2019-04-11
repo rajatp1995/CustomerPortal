@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" name="Suite" parallel="tests">
+
+    <test name="1">
+        <parameter name="config" value="CustomerPortal.conf.json"/>
+        <parameter name="environment" value="Safari/12/MAC/10.14"/>
+        <classes>
+            <class name="testng_files.CPLogin"/>
+        </classes>
+    </test>
+    
+    <test name="2">
+        <parameter name="config" value="CustomerPortal.conf.json"/>
+        <parameter name="environment" value="chrome/73/Windows/10"/>
+        <classes>
+            <class name="testng_files.CPLogin"/>
+        </classes>
+    </test>
+    
+    <test name="3">
+        <parameter name="config" value="CustomerPortal.conf.json"/>
+        <parameter name="environment" value="firefox/66/Windows/10"/>
+        <classes>
+            <class name="testng_files.CPLogin"/>
+        </classes>
+    </test>
+    
+    <test name="4">
+        <parameter name="config" value="CustomerPortal.conf.json"/>
+        <parameter name="environment" value="IE/11/Windows/7"/>
+        <classes>
+            <class name="testng_files.CPLogin"/>
+        </classes>
+    </test>
+    
+</suite>

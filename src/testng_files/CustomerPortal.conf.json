@@ -1,0 +1,43 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "rajatpancholy1",
+  "key": "hdxfbFQT4qEmBwpSA61s",
+
+  "capabilities": {
+    "browserstack.debug": true,
+    "project": "CustomerPortal",
+    "build": "1.0"
+  },
+
+  "environments": {
+  
+    "Safari/12/MAC/10.14": {
+      "browser": "Safari",
+      "version": "12.0",
+      "os": "OS X",
+      "os_version": "Mojave"
+    },
+    
+    "chrome/73/Windows/10": {
+      "browser": "chrome",
+      "version": "73.0",
+      "os": "WINDOWS",
+      "os_version": "10"
+    },
+    
+  "firefox/66/Windows/10": {
+      "browser": "firefox",
+      "version": "66.0",
+      "os": "WINDOWS",
+      "os_version": "10"
+    },
+    
+   "IE/11/Windows/7": {
+   "browser": "IE",
+   "version": "11.0",
+   "os": "WINDOWS",
+   "os_version": "7"
+    }
+  
+  }
+}
